@@ -257,3 +257,12 @@ git merge feat/get-info
 ./element.sh 4
 git log --oneline
 git rebase -i HEAD~5
+gti branch
+git branch
+git branch -d feat/get-info
+git branch -d feat/input-classification
+git branch -d fix/conditional-ask
+git merge feat/get-info
+./element.sh 43
+./element.sh 4
+git branch -d feat/get-info
