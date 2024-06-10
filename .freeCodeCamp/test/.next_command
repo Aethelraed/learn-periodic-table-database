@@ -1,0 +1,259 @@
+psql --username=freecodecamp --dbname=periodic_table
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+__vsc_is_windows=0
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+builtin printf "\e]633;P;ContinuationPrompt=$(echo "$PS2" | sed 's/\x1b/\\\\x1b/g')\a"
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+echo "metal metalloid nonmetal" > types.txt
+mor types.txt
+more types.txt
+echo " type_id | type ---------+----------- 1 | metal 2 | metalloid 3 | nonmetal"
+clear
+clear
+ls --color=auto
+mkdir periodic_table
+cd periodic_table/
+git init
+checkout -b main
+git checkout -b main
+touch element.sh
+chmod +x element.sh
+git status
+add .
+git add .
+git commit -m "feat: argument echo"
+git status
+git log --oneline
+./element.sh
+./element.sh
+git add .
+git commit -m "fix: correct shebang"
+git history
+git log
+git rebase main --interactive
+git rebase HEAD~2 --interactive
+git rebase HEAD~1 --interactive
+git rebase HEAD~2 --interactive
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+man psql
+./element.sh
+man psql
+./element.sh
+./element.sh
+./element.sh 1
+./element.sh HA!
+git status
+git diff
+git add .
+git commit -m "test: User_input"
+git rebase -i
+git rebase -i HEAD
+git rebase -i HEAD~2
+git rebase --abort
+git rebase - i HEAD~3
+git rebase -i HEAD~3
+git rebase -i HEAD~2
+git rebase --abort
+git rebase -i --root
+git rebase -i --root
+clear
+cd ..
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+ls --color=auto
+cd ./periodic_table/
+git status
+git checkout -b feat/input-classification
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+1 =~ "[0-9]+"
+./element.sh 1
+./element.sh 1
+./element.sh Fe
+./element.sh F
+./element.sh Faa
+./element.sh Faa
+./element.sh Fa
+./element.sh 3
+./element.sh 3a
+git add .
+git commit -m "feat: input classifier"
+git checkout main
+git merge feat/input-classification
+git checkout -b fix/conditional-ask
+./element.sh 3a
+git add .
+git commit -m "fix: conditional ask"
+git checkout main
+git merge fix/conditional-ask
+./element.sh
+git add .
+git commit -m "fix: no classification without input"
+git commit --help
+./element.sh
+./element.sh 3
+./element.sh Fe
+./element.sh Fe
+./element.sh 3
+./element.sh 3
+git add .
+git commit -m "fix classification bug"
+git checkout -b feat/get-info
+./element.sh 3
+./element.sh 3
+./element.sh 3
+./element.sh 3
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh H
+./element.sh Ne
+./element.sh Ne
+./element.sh 3
+./element.sh Lithium
+./element.sh Lithium
+./element.sh 4
+git add .
+git commit -m "feat: basic request"
+./element.sh 4
+./element.sh 4
+man read
+help read
+clear
+help read
+help read
+clear
+./element.sh 4
+./element.sh 4
+./element.sh 4
+./element.sh 4
+./element.sh 4
+./element.sh 4
+echo "4 Beryllium Be metal 9.0122 1287 2470"
+echo $TEST
+echo "$TEST"
+cat "4 Beryllium Be metal 9.0122 1287 2470"
+$(echo "4 Beryllium Be metal 9.0122 1287 2470")
+echo $(echo "4 Beryllium Be metal 9.0122 1287 2470")
+echo $TEST
+echo "4 Beryllium Be metal 9.0122 1287 2470"
+clear
+./element.sh 3
+./element.sh 3
+./element.sh 3
+./element.sh 3
+./element.sh 3
+exit
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+__vsc_is_windows=0
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+builtin printf "\e]633;P;ContinuationPrompt=$(echo "$PS2" | sed 's/\x1b/\\\\x1b/g')\a"
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+ls --color=auto
+cd periodic_table/
+ls --color=auto
+./element.sh
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+clear
+help read
+clear
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+echo 3 TEST > read
+echo $TEST
+rest TEST 3 < echo
+read TEST 3 < echo
+__vsc_prompt_cmd_original
+read TEST < <(echo 3)
+echo $TEST
+clear
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+clear
+clear
+./element.sh 1
+clear
+./element.sh 1
+./element.sh 5
+./element.sh 7
+./element.sh 2
+./element.sh 3
+git diff
+git add .
+git commit -m "feat: print output string"
+./element.sh 42
+./element.sh 42
+git add .
+git commit -m "feat: 404 element not found "
+git checkout main
+git branch
+git merge feat/get-info
+./element.sh 42
+./element.sh 4
+git log --oneline
+git rebase -i HEAD~5
